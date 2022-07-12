@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 2em;
+	line-height: 2;
+	font-family:monospace
+	font-style: italic;
+}
+body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+	background-color: rgb(175, 193, 199);
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+h1{
+	font-size: 38px;
+	text-align: center;
+	color: cornflowerblue;
+
+}
+.countries {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	gap: 15px;
+	margin-top: 5%;
+}
+.country-frame {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-between;
+}
+.country-frame img {
+	max-width: 300px;
+	width: 100%;
+}
+.country-title {
+	font-size: 20px;
+	font-weight: 600;
+	max-width: 300px;
+	width: 100%;
+	text-align: center;
+	
+}
